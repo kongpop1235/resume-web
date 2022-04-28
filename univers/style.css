@@ -1,0 +1,60 @@
+@font-face {
+  font-family: test;
+  src: url(./font/slkscr-webfont.woff);
+}
+
+#p-main-head {
+  font-family: test;
+  font-weight: 100;
+  font-size: 40px;
+  letter-spacing: 5px;
+  line-height: 1.5;
+}
+
+#p-main-text {
+  padding-bottom: 50px;
+  letter-spacing: 5px;
+  line-height: 1.5;
+  vertical-align: bottom;
+  display: table-cell;
+  text-align: right;
+}
+
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.display-flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+
+#icon-github {
+  fill: rgb(0, 0, 0);
+  transition: 0.3s;
+}
+
+#icon-github:hover {
+  fill: rgb(101, 0, 184);
+  transform: rotate(30deg);
+  transition: 0.3s;
+}
+
+#icon-linkedin {
+  fill: rgb(0, 0, 0);
+  transition: 0.3s;
+}
+
+#icon-linkedin:hover {
+  fill: rgb(19, 74, 201);
+  transform: rotate(30deg);
+  transition: 0.3s;
+}
